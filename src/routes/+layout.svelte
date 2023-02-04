@@ -33,7 +33,7 @@
 						<AppRailTile tag="a" href="https://github.com/" target="_blank" title="Settings">
 							<Icon src={ApiApp} size="36px" color=#ccc/>
 						</AppRailTile>
-						<AppRailTile tag="a" href="https://github.com/" target="_blank" title="Settings">
+						<AppRailTile tag="b" href="/about"  title="About">
 							<Icon src={ManualGearbox} size="36px" color=#ccc/>
 						</AppRailTile>							
 						<AppRailTile tag="a" href="https://github.com/" target="_blank" title="Settings">
