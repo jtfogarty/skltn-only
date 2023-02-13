@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
 	import '@skeletonlabs/skeleton/themes/theme-crimson.css';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
-	import { AppShell, AppBar, AppRail, AppRailTile } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, AppRail, AppRailTile, Modal } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 	import {ManualGearbox, ApiApp, Settings, Settings2, Apple} from '@steeze-ui/tabler-icons';
 	import {Icon} from '@steeze-ui/svelte-icon';
@@ -73,3 +73,5 @@
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
+
+<Modal />
